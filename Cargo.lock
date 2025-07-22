@@ -770,7 +770,7 @@ dependencies = [
 [[package]]
 name = "bls"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "alloy-primitives",
  "arbitrary",
@@ -957,7 +957,7 @@ dependencies = [
 [[package]]
 name = "compare_fields"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "itertools 0.10.5",
 ]
@@ -965,7 +965,7 @@ dependencies = [
 [[package]]
 name = "compare_fields_derive"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -1013,7 +1013,7 @@ dependencies = [
 [[package]]
 name = "context_deserialize"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "milhouse",
  "serde",
@@ -1023,7 +1023,7 @@ dependencies = [
 [[package]]
 name = "context_deserialize_derive"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -1599,7 +1599,7 @@ dependencies = [
 [[package]]
 name = "eth2"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "derivative",
  "either",
@@ -1630,7 +1630,7 @@ dependencies = [
 [[package]]
 name = "eth2_interop_keypairs"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "bls",
  "ethereum_hashing",
@@ -1643,7 +1643,7 @@ dependencies = [
 [[package]]
 name = "eth2_key_derivation"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "bls",
  "num-bigint-dig",
@@ -1655,7 +1655,7 @@ dependencies = [
 [[package]]
 name = "eth2_keystore"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "aes",
  "bls",
@@ -1835,7 +1835,7 @@ dependencies = [
 [[package]]
 name = "fixed_bytes"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "alloy-primitives",
  "safe_arith",
@@ -2556,7 +2556,7 @@ dependencies = [
 [[package]]
 name = "int_to_bytes"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "bytes",
 ]
@@ -2757,7 +2757,7 @@ dependencies = [
 [[package]]
 name = "kzg"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "arbitrary",
  "c-kzg",
@@ -2892,7 +2892,7 @@ checksum = "32a282da65faaf38286cf3be983213fcf1d2e2a58700e808f83f4ea9a4804bc0"
 [[package]]
 name = "merkle_proof"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "alloy-primitives",
  "ethereum_hashing",
@@ -3375,7 +3375,7 @@ dependencies = [
 [[package]]
 name = "pretty_reqwest_error"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "reqwest 0.11.27",
  "sensitive_url",
@@ -3466,7 +3466,7 @@ dependencies = [
 [[package]]
 name = "proto_array"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "ethereum_ssz",
  "ethereum_ssz_derive",
@@ -4100,7 +4100,7 @@ checksum = "28d3b2b1366ec20994f1fd18c3c594f05c5dd4bc44d8bb0c1c632c8d6829481f"
 [[package]]
 name = "safe_arith"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 
 [[package]]
 name = "salsa20"
@@ -4306,7 +4306,7 @@ dependencies = [
 [[package]]
 name = "sensitive_url"
 version = "0.1.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "serde",
  "url",
@@ -4640,7 +4640,7 @@ dependencies = [
 [[package]]
 name = "swap_or_not_shuffle"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "alloy-primitives",
  "ethereum_hashing",
@@ -4771,7 +4771,7 @@ dependencies = [
 [[package]]
 name = "test_random_derive"
 version = "0.2.0"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "quote",
  "syn 1.0.109",
@@ -5167,7 +5167,7 @@ checksum = "1dccffe3ce07af9386bfd29e80c0ab1a8205a2fc34e4bcd40364df902cfa8f3f"
 [[package]]
 name = "types"
 version = "0.2.1"
-source = "git+https://github.com/cakevm/lighthouse?rev=06543e0#06543e061682d49ec5ef5e4c649943e021273532"
+source = "git+https://github.com/cakevm/lighthouse?rev=0288861#0288861ac0d5e2a94e3f4621397a19e82e45ce7d"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
